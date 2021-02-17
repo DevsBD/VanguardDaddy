@@ -22,20 +22,7 @@ client.on('message', message => {
 
 });
 
-client.on('message', message => {
 
-  // If the message is "what is my avatar"
-
-  if (message.content === '.avatar') {
-
-    // Send the user's avatar URL
-
-    message.reply(message.author.displayAvatarURL());
-
-  }
-
-});
- 
 
 // THIS  MUST  BE  THIS  WAY
 
