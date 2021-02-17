@@ -18,7 +18,13 @@ client.on('message', message => {
 
        message.reply('pong');
 
-       }
+       }else if (message.content === 'what is my avatar') {
+
+    // Send the user's avatar URL
+
+    message.reply(message.author.displayAvatarURL());
+
+  }
 
 });
 
